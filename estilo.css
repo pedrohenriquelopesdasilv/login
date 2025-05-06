@@ -1,0 +1,24 @@
+body{
+    background-image: url('pedro.jpg');/*adicionando imagem ao fundo*/
+    background-position:center ;
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 3cm; /*espaçamento entre a margem e o texto*/
+    background: rgba(0, 0, 0, 0.6);
+    max-width: calc(60% - 6cm);
+    margin: auto;
+}
+
+h1{
+    font-size: 2,5em;
+    font-weight: bold;
+}
+p{
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.5;
+}
